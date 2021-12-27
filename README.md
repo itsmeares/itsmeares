@@ -1,7 +1,5 @@
 - 👋 Hi, I’m @itsmeares
-- 👀 I’m interested in => Nothing.
+- 👀 I’m interested in => Coding.
 - 🌱 I’m currently learning => Node.js/Discord.js/JS
 - 💞️ I’m looking to collaborate on => Nothing for now.
 - 📫 How to reach me => arasbeyim@gmail.com
-
-btw i love billie eilish 🖤
