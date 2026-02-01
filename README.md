@@ -15,6 +15,8 @@ A **local-first super app** designed to replace the fragmented productivity stac
 * **Tech Stack:** TypeScript, Electron, React
 * **Goal:** Unified productivity with speed and privacy.
 
+### 🎉 Past Projects
+
 #### 🎮 **Game Development**
 * **Traffic Racer**: A racing game built with **Unity** & **C#**.
 * **Megazonk**: A clone of the game **Megabonk** made in **Unity**
