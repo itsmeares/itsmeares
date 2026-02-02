@@ -1,10 +1,11 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" width="100" />
   <h1>Hi there, I'm Aras! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" /></h1>
   <h3>Indie Developer | Local-First Enthusiast | Game Dev</h3>
   <p>
     I build unified, aesthetically pleasing software to replace fragmented workflows.
   </p>
+
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribs Graph" width="850" />
 
   <p>
     <a href="http://itsmeares.com" target="_blank">
@@ -56,12 +57,13 @@ A **local-first super app** designed to replace the fragmented productivity stac
 | **Languages** | **Frontend & App** | **Game Dev & Creative** |
 | :---: | :---: | :---: |
 | ![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c-sharp&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) | ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black) ![Electron](https://img.shields.io/badge/-Electron-47848F?style=flat&logo=electron&logoColor=white) ![Tailwind](https://img.shields.io/badge/-Tailwind-38B2AC?style=flat&logo=tailwind-css&logoColor=white) | ![Unity](https://img.shields.io/badge/-Unity-000000?style=flat&logo=unity&logoColor=white) ![Premiere](https://img.shields.io/badge/-Premiere_Pro-9999FF?style=flat&logo=adobe-premiere-pro&logoColor=white) ![HuggingFace](https://img.shields.io/badge/-Hugging_Face-FFD21E?style=flat&logo=huggingface&logoColor=black) |
+| ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black) | ![Antigravity](https://img.shields.io/badge/-Antigravity_IDE-FF6B6B?style=flat&logo=code&logoColor=white) | |
 
 </div>
 
 ---
 
-### 📊 GitHub Stats
+### 📊 GitHub Stats & Music
 
 <div align="center">
   <p>
@@ -72,6 +74,13 @@ A **local-first super app** designed to replace the fragmented productivity stac
       <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=itsmeares&layout=compact&theme=transparent&hide_border=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&count_private=true" alt="Top Languages" height="150" />
     </a>
   </p>
+  
+  <p>
+    <a href="https://www.last.fm/user/itsmeares">
+      <img src="https://lastfm-recently-played.vercel.app/api?user=itsmeares&count=1&width=400&background=1c1917&header_color=0891b2&text_color=ffffff" alt="Last.fm Now Playing" />
+    </a>
+  </p>
+
   <p>
     <a href="https://github.com/itsmeares">
         <img src="https://github-readme-streak-stats.herokuapp.com/?user=itsmeares&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="Streak Stats" />
