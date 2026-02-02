@@ -1,8 +1,8 @@
 <div align="center">
   <h1>Hi there, I'm Aras! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" /></h1>
-  <h3>Indie Developer | Local-First Enthusiast | Game Dev</h3>
+  <h3>Indie Developer | Game Dev</h3>
   <p>
-    I build unified, aesthetically pleasing software to replace fragmented workflows.
+    Crafting digital experiences with a focus on aesthetics and performance.
   </p>
 
 <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contribs Graph" width="850" />
@@ -36,8 +36,7 @@
 > **[Graphon](https://github.com/itsmeares/Graphon)** — *The Next Gen Productivity Application*
 
 A **local-first super app** designed to replace the fragmented productivity stack (Notion, Obsidian, Linear) with a native macOS aesthetic.
-- **Tech Stack:** TypeScript, Electron, React, SQLite
-- **Goal:** Unified productivity with speed and privacy.
+- **Tech Stack:** TypeScript, Electron, React, Tailwind, SQLite
 
 ---
 
