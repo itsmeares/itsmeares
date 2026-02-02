@@ -66,27 +66,26 @@ A **local-first super app** designed to replace the fragmented productivity stac
 ### 📊 GitHub Stats & Music
 
 <div align="center">
+
+  <a href="https://github.com/itsmeares">
+    <img src="https://github-readme-stats.vercel.app/api?username=itsmeares&show_icons=true&locale=en&theme=transparent&hide_border=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917" height="150" alt="stats" />
+  </a>
+  <a href="https://github.com/itsmeares">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itsmeares&layout=compact&theme=transparent&hide_border=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917" height="150" alt="languages" />
+  </a>
+
   <p>
-    <a href="https://github.com/itsmeares">
-      <img align="center" src="https://github-readme-stats.vercel.app/api?username=itsmeares&show_icons=true&locale=en&theme=transparent&hide_border=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&count_private=true" alt="Aras's Stats" height="150" />
-    </a>
-    <a href="https://github.com/itsmeares">
-      <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=itsmeares&layout=compact&theme=transparent&hide_border=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&count_private=true" alt="Top Languages" height="150" />
-    </a>
-  </p>
-  
-  <p>
-    <a href="https://www.last.fm/user/itsmeares">
-      <img src="https://lastfm-recently-played.vercel.app/api?user=itsmeares&count=1&width=400&background=1c1917&header_color=0891b2&text_color=ffffff" alt="Last.fm Now Playing" />
+    <a href="https://www.last.fm/user/YOUR_LASTFM_USERNAME">
+      <img src="https://lastfm-recently-played.vercel.app/api?user=YOUR_LASTFM_USERNAME&count=1&width=400&background=1c1917&header_color=0891b2&text_color=ffffff" alt="Last.fm" />
     </a>
   </p>
 
-  <p>
-    <a href="https://github.com/itsmeares">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=itsmeares&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="Streak Stats" />
-    </a>
-  </p>
+  <a href="https://github.com/itsmeares">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=itsmeares&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="streak" />
+  </a>
+
 </div>
+
 
 ---
 
