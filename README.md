@@ -36,12 +36,13 @@ A **local-first super app** designed to replace the fragmented productivity stac
 ### 📊 GitHub Stats
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=itsmeares&show_icons=true&theme=dracula&hide_border=true&bg_color=0d1117" alt="Ares' GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itsmeares&layout=compact&theme=dracula&hide_border=true&bg_color=0d1117" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats-d8uth9ydr-itsmeares-projects.vercel.app/api?username=itsmeares&show_icons=true&theme=dracula&hide_border=true&bg_color=0d1117&count_private=true" alt="Ares' GitHub Stats" width="48%" />
+  
+  <img src="https://github-readme-stats-d8uth9ydr-itsmeares-projects.vercel.app/api/top-langs/?username=itsmeares&layout=compact&theme=dracula&hide_border=true&bg_color=0d1117&count_private=true" alt="Top Languages" width="48%" />
 </p>
 
 ---
 
 ### 📫 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)]((https://www.linkedin.com/in/aras-%C3%A7elik-378168266/))
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aras-%C3%A7elik-378168266/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arasbeyim@gmail.com)
