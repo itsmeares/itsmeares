@@ -72,8 +72,8 @@ A **local-first super app** designed to replace the fragmented productivity stac
   
   <br/>
 
-  <a href="https://www.last.fm/user/SENIN_LASTFM_KULLANICI_ADIN">
-      <img src="https://lastfm-recently-played.vercel.app/api?user=SENIN_LASTFM_KULLANICI_ADIN&count=1&width=400&background=1c1917&header_color=0891b2&text_color=ffffff" alt="Last.fm" />
+  <a href="https://www.last.fm/user/itsmeares">
+      <img src="https://lastfm-recently-played.vercel.app/api?user=itsmeares&count=1&width=400&background=1c1917&header_color=0891b2&text_color=ffffff" alt="Last.fm" />
   </a>
 </div>
 
