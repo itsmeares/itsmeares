@@ -7,7 +7,6 @@
 
 <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contribs Graph" width="850" />
 
-
   <p>
     <a href="http://itsmeares.com" target="_blank">
       <img src="https://img.shields.io/badge/Portfolio-itsmeares.com-2ea44f?style=for-the-badge&logo=googlechrome&logoColor=white" />
