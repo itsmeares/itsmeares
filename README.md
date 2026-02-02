@@ -36,9 +36,9 @@ A **local-first super app** designed to replace the fragmented productivity stac
 ### 📊 GitHub Stats
 
 <p align="left">
-  <img src="https://github-readme-stats-d8uth9ydr-itsmeares-projects.vercel.app/api?username=itsmeares&show_icons=true&theme=dracula&hide_border=true&bg_color=0d1117&count_private=true" alt="Ares' GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats-p9met8xdy-itsmeares-projects.vercel.app/api?username=itsmeares&show_icons=true&theme=dracula&hide_border=true&bg_color=0d1117&count_private=true" alt="Ares' GitHub Stats" width="48%" />
   
-  <img src="https://github-readme-stats-d8uth9ydr-itsmeares-projects.vercel.app/api/top-langs/?username=itsmeares&layout=compact&theme=dracula&hide_border=true&bg_color=0d1117&count_private=true" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats-p9met8xdy-itsmeares-projects.vercel.app/api/top-langs/?username=itsmeares&layout=compact&theme=dracula&hide_border=true&bg_color=0d1117&count_private=true" alt="Top Languages" width="48%" />
 </p>
 
 ---
