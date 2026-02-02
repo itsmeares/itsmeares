@@ -66,13 +66,14 @@ A **local-first super app** designed to replace the fragmented productivity stac
 ### 📊 GitHub Stats & Music
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/itsmeares/itsmeares/main/profile-summary-card-output/dracula/0-profile-details.svg" height="160" alt="Profile Details" />
-  <img src="https://raw.githubusercontent.com/itsmeares/itsmeares/main/profile-summary-card-output/dracula/2-most-commit-language.svg" height="160" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/itsmeares/itsmeares/main/profile-summary-card-output/dark/0-profile-details.svg" height="160" alt="Profile Details" />
+  
+  <img src="https://raw.githubusercontent.com/itsmeares/itsmeares/main/profile-summary-card-output/dark/2-most-commit-language.svg" height="160" alt="Top Languages" />
   
   <br/>
 
-  <a href="https://www.last.fm/user/itsmeares">
-      <img src="https://lastfm-recently-played.vercel.app/api?user=itsmeares&count=1&width=400&background=1c1917&header_color=0891b2&text_color=ffffff" alt="Last.fm" />
+  <a href="https://www.last.fm/user/SENIN_LASTFM_KULLANICI_ADIN">
+      <img src="https://lastfm-recently-played.vercel.app/api?user=SENIN_LASTFM_KULLANICI_ADIN&count=1&width=400&background=1c1917&header_color=0891b2&text_color=ffffff" alt="Last.fm" />
   </a>
 </div>
 
