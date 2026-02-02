@@ -5,7 +5,7 @@
     I build unified, aesthetically pleasing software to replace fragmented workflows.
   </p>
 
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribs Graph" width="850" />
+<img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contribs Graph" width="850" />
 
   <p>
     <a href="http://itsmeares.com" target="_blank">
