@@ -8,7 +8,7 @@
 <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contribs Graph" width="850" />
 
   <p>
-    <a href="[http://itsmeares.com](https://itsmeares.vercel.app/)" target="_blank">
+    <a href="https://itsmeares.vercel.app/" target="_blank">
       <img src="https://img.shields.io/badge/Portfolio-itsmeares.com-2ea44f?style=for-the-badge&logo=googlechrome&logoColor=white" />
     </a>
     <a href="mailto:arasbeyim@gmail.com">
