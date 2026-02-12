@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Hi there, I'm Aras! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" /></h1>
-  <h3>Indie Developer | Game Dev</h3>
+  <h3>Front End Developer</h3>
   <p>
     Crafting digital experiences with a focus on aesthetics and performance.
   </p>
