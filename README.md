@@ -27,7 +27,7 @@
 - 🌍 I'm based in **London, UK**.
 - 🚀 I'm currently building **[Graphon](https://github.com/itsmeares/Graphon)**.
 - 🧠 I'm currently learning **TypeScript** and **Electron** deep dives.
-- 🤝 I'm open to collaborating on **desktop apps** and **indie games**.
+- 🤝 I'm open to collaborating!
 
 ---
 
