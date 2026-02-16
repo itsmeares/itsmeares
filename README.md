@@ -69,11 +69,6 @@ A **local-first super app** designed to replace the fragmented productivity stac
   
   <img src="https://raw.githubusercontent.com/itsmeares/itsmeares/main/profile-summary-card-output/dark/2-most-commit-language.svg" height="160" alt="Top Languages" />
   
-  <br/>
-
-  <a href="https://www.last.fm/user/itsmeares">
-      <img src="https://lastfm-recently-played.vercel.app/api?user=itsmeares&count=1&width=400&background=1c1917&header_color=0891b2&text_color=ffffff" alt="Last.fm" />
-  </a>
 </div>
 
 
