@@ -38,17 +38,6 @@
 A **local-first super app** designed to replace the fragmented productivity stack (Notion, Obsidian, Linear) with a native macOS aesthetic.
 - **Tech Stack:** TypeScript, Electron, React, Tailwind, SQLite
 
----
-
-### 🎮 Past Projects
-
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| **Traffic Racer** | A high-speed racing game. | `Unity` `C#` |
-| **Megazonk** | A physics-based clone of the game Megabonk. | `Unity` `C#` |
-
----
-
 ### 🛠 Languages & Tools
 
 <div align="center">
