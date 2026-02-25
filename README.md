@@ -41,8 +41,6 @@
 
 ---
 
-### 📊 GitHub Stats & Music
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/itsmeares/itsmeares/main/profile-summary-card-output/dark/0-profile-details.svg" height="160" alt="Profile Details" />
 </div>
