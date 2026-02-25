@@ -31,15 +31,6 @@
 
 ---
 
-### 🚀 Current Project
-
-> **[Graphon](https://github.com/itsmeares/Graphon)** — *The Next Gen Productivity Application*
-
-A **local-first super app** designed to replace the fragmented productivity stack (Notion, Obsidian, Linear) with a native macOS aesthetic.
-- **Tech Stack:** TypeScript, Electron, React, Tailwind, SQLite
-
-### 🛠 Languages & Tools
-
 <div align="center">
 
 | **Languages** | **Frontend & App** |
