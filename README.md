@@ -45,22 +45,6 @@
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/itsmeares/itsmeares/main/profile-summary-card-output/dark/0-profile-details.svg" height="160" alt="Profile Details" />
-  
-  <img src="https://raw.githubusercontent.com/itsmeares/itsmeares/main/profile-summary-card-output/dark/2-most-commit-language.svg" height="160" alt="Top Languages" />
-  
 </div>
 
 
----
-
-### ☕ Support Me
-
-<div align="center">
-  <a href="https://www.buymeacoffee.com/itsmeares">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="150" alt="Buy Me A Coffee"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.ko-fi.com/itsmeares">
-    <img src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" width="150" alt="Ko-fi"/>
-  </a>
-</div>
