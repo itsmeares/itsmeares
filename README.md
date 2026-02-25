@@ -4,7 +4,7 @@
 ### 🧐 About Me
 
 - 🌍 I'm based in **London, UK**.
-- 🚀 I'm currently building **REDACTED**.
+- 🚀 I'm currently building (REDACTED).
 - 🧠 I'm currently learning **TypeScript** and **React** deep dives.
 - 🤝 I'm open to collaborating!
 
