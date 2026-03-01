@@ -4,7 +4,7 @@
 ###  About Me
 
 - 🌍 I'm based in **London, UK**.
-- 🚀 I'm currently building [Graphon](graphon.app).
+- 🚀 I'm currently building [Graphon](https://graphon.app).
 - 🧠 I'm currently learning **TypeScript** and **React** deep dives.
 - 🤝 I'm open to collaborating!
 
