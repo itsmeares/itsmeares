@@ -3,13 +3,7 @@
 
 ###  About Me
 
-- 🌍 I'm based in **London, UK**.
-
----
-
-### WIP!!!
-
----
+🌍 I'm based in **London, UK**.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/itsmeares/itsmeares/main/profile-summary-card-output/dark/0-profile-details.svg" height="160" alt="Profile Details" />
