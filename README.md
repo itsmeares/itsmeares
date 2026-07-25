@@ -102,17 +102,22 @@
   <img
     src="./profile-summary-card-output/midnight_purple/3-stats.svg"
     alt="GitHub statistics"
-    width="49%"
-  />
-  <img
-    src="./profile-summary-card-output/midnight_purple/1-repos-per-language.svg"
-    alt="Most used languages"
-    width="49%"
+    width="52%"
   />
 </p>
 
-<img
-  src="./profile-summary-card-output/midnight_purple/0-profile-details.svg"
-  alt="GitHub activity"
-  width="100%"
-/>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/itsmeares/itsmeares/output/github-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/itsmeares/itsmeares/output/github-snake.svg"
+  />
+  <img
+    src="https://raw.githubusercontent.com/itsmeares/itsmeares/output/github-snake-dark.svg"
+    alt="GitHub contribution snake"
+    width="100%"
+  />
+</picture>
