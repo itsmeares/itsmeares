@@ -1,1 +1,113 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="760"
+  height="150"
+  viewBox="0 0 760 150"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">hiya, i'm aras</title>
+  <desc id="desc">learning and vibing, based in london</desc>
 
+  <defs>
+    <linearGradient id="status-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6">
+        <animate
+          attributeName="stop-color"
+          values="#8b5cf6;#a78bfa;#60a5fa;#8b5cf6"
+          dur="7s"
+          repeatCount="indefinite"
+        />
+      </stop>
+      <stop offset="50%" stop-color="#a78bfa">
+        <animate
+          attributeName="stop-color"
+          values="#a78bfa;#60a5fa;#c084fc;#a78bfa"
+          dur="7s"
+          repeatCount="indefinite"
+        />
+      </stop>
+      <stop offset="100%" stop-color="#60a5fa">
+        <animate
+          attributeName="stop-color"
+          values="#60a5fa;#c084fc;#8b5cf6;#60a5fa"
+          dur="7s"
+          repeatCount="indefinite"
+        />
+      </stop>
+    </linearGradient>
+
+    <filter id="soft-glow" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feColorMatrix
+        in="blur"
+        type="matrix"
+        values="
+          1 0 0 0 0.55
+          0 1 0 0 0.35
+          0 0 1 0 0.95
+          0 0 0 0.22 0
+        "
+      />
+    </filter>
+
+    <style>
+      .title {
+        fill: #f0f6fc;
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        font-size: 44px;
+        font-weight: 700;
+        letter-spacing: -1.6px;
+      }
+
+      .status {
+        fill: url(#status-gradient);
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        font-size: 17px;
+        font-weight: 500;
+        letter-spacing: 0.4px;
+      }
+
+      .glow {
+        fill: url(#status-gradient);
+        opacity: 0.34;
+        filter: url(#soft-glow);
+      }
+
+      .dot {
+        fill: #8b5cf6;
+      }
+
+      @media (prefers-color-scheme: light) {
+        .title {
+          fill: #24292f;
+        }
+
+        .dot {
+          fill: #7c3aed;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        animate {
+          display: none;
+        }
+      }
+    </style>
+  </defs>
+
+  <text class="title" x="380" y="68" text-anchor="middle">
+    hiya, i'm aras
+  </text>
+
+  <text class="glow" x="380" y="108" text-anchor="middle">
+    learning and vibing · based in london
+  </text>
+
+  <text class="status" x="380" y="108" text-anchor="middle">
+    learning and vibing · based in london
+  </text>
+
+  <circle class="dot" cx="187" cy="103" r="2.5" />
+  <circle class="dot" cx="573" cy="103" r="2.5" />
+</svg>
