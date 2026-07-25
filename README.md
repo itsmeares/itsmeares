@@ -100,7 +100,7 @@
 
 <p align="center">
   <img
-    src="./profile-summary-card-output/midnight_purple/3-stats.svg"
+    src="./profile-summary-card-output/aura/3-stats.svg"
     alt="GitHub statistics"
     width="52%"
   />
