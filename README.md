@@ -98,26 +98,21 @@
 
 ---
 
-<div align="center">
+<p align="center">
   <img
-    src="./assets/github-stats.svg"
+    src="./profile-summary-card-output/midnight_purple/3-stats.svg"
     alt="GitHub statistics"
-    width="100%"
-  />
-</div>
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="./assets/github-snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="./assets/github-snake-light.svg"
+    width="49%"
   />
   <img
-    src="./assets/github-snake-dark.svg"
-    alt="GitHub contribution graph animation"
-    width="100%"
+    src="./profile-summary-card-output/midnight_purple/1-repos-per-language.svg"
+    alt="Most used languages"
+    width="49%"
   />
-</picture>
+</p>
+
+<img
+  src="./profile-summary-card-output/midnight_purple/0-profile-details.svg"
+  alt="GitHub activity"
+  width="100%"
+/>
