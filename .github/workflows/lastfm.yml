@@ -1,0 +1,51 @@
+name: Update Last.fm card
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/generate-lastfm.mjs"
+      - ".github/workflows/lastfm.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lastfm-card
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Generate Last.fm card
+        run: node scripts/generate-lastfm.mjs
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+          LASTFM_USER: itsmeares
+          OUTPUT_DIR: dist
+
+      - name: Publish card to lastfm-output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: lastfm-output
+          publish_dir: ./dist
+          force_orphan: true
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          full_commit_message: "chore: update Last.fm card"
