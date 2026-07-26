@@ -90,8 +90,8 @@
 
 <a href="https://www.last.fm/user/itsmeares">
   <img
-    src="https://lastfm-recently-played.vercel.app/api?user=itsmeares&count=5&width=1000&header_style=none&footer_style=none&loved=true&loved_style=2&bg_color=0d1117&border_radius=12&maxage=60"
-    alt="Recently played on Last.fm"
+    src="https://raw.githubusercontent.com/itsmeares/itsmeares/lastfm-output/lastfm.svg"
+    alt="My Last.fm listening activity"
     width="100%"
   />
 </a>
