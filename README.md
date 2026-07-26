@@ -86,25 +86,7 @@
   />
 </p>
 
----
-
-<a href="https://www.last.fm/user/itsmeares">
-  <img
-    src="https://raw.githubusercontent.com/itsmeares/itsmeares/lastfm-output/lastfm.svg"
-    alt="My Last.fm listening activity"
-    width="100%"
-  />
-</a>
-
----
-
-<p align="center">
-  <img
-    src="./profile-summary-card-output/aura/3-stats.svg"
-    alt="GitHub statistics"
-    width="52%"
-  />
-</p>
+<!-- ---
 
 <picture>
   <source
@@ -120,4 +102,4 @@
     alt="GitHub contribution snake"
     width="100%"
   />
-</picture>
+</picture> -->
