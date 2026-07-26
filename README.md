@@ -90,8 +90,8 @@
 
 <a href="https://www.last.fm/user/itsmeares">
   <img
-    src="./assets/lastfm.svg"
-    alt="Currently playing and weekly Last.fm listening stats"
+    src="https://lastfm-recently-played.vercel.app/api?user=itsmeares&count=5&width=1000&header_style=none&footer_style=none&loved=true&loved_style=2&bg_color=0d1117&border_radius=12&maxage=60"
+    alt="Recently played on Last.fm"
     width="100%"
   />
 </a>
