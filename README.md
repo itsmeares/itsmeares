@@ -16,7 +16,7 @@
     align="left"
   />
   <h3><a href="https://github.com/itsmeares/staaash">Staaash ↗</a></h3>
-  <span>File storage, management and sharing through web interface. Self-hosted alternative to Google Drive..</span>
+  <span>File storage, management and sharing through web interface. Self-hosted alternative to Google Drive.</span>
   <br clear="left" />
 </div>
 
