@@ -16,26 +16,7 @@
     align="left"
   />
   <h3><a href="https://github.com/itsmeares/staaash">Staaash ↗</a></h3>
-  <span>A self-hosted alternative to Google Drive.</span>
-  <br clear="left" />
-</div>
-
-<div>
-  <img
-    src="https://raw.githubusercontent.com/itsmeares/vanish/main/assets/vanish-placeholder.svg"
-    alt="Vanish"
-    width="72"
-    align="left"
-  />
-  <h3>
-    <a href="https://github.com/itsmeares/vanish">Vanish ↗</a>&nbsp;
-    <img
-      src="https://img.shields.io/badge/-WIP-8B5CF6?style=flat-square"
-      alt="Work in progress"
-      height="18"
-    />
-  </h3>
-  <span>A local-first tool for reviewing and cleaning up your social media footprint. 🚧</span>
+  <span>File storage, management and sharing through web interface. Self-hosted alternative to Google Drive..</span>
   <br clear="left" />
 </div>
 
