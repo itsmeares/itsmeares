@@ -62,8 +62,8 @@
 
 <p>
   <img
-    src="https://skillicons.dev/icons?i=windows,linux,ubuntu&theme=dark"
-    alt="Windows, Linux and Ubuntu"
+    src="https://skillicons.dev/icons?i=windows,linux&theme=dark"
+    alt="Window and linux"
   />
 </p>
 
