@@ -1,86 +1,30 @@
-<div align="center">
-  <img
-    src="./assets/header.svg"
-    alt="hiya, i'm aras · based in london"
-    width="760"
-  />
-</div>
+<a href="https://itsmeares.com"><img src="https://raw.githubusercontent.com/itsmeares/itsmeares/live/banner.svg" alt="Aras, Web developer, London" width="860"></a>
 
 ## Projects
 
-<div>
-  <img
-    src="https://raw.githubusercontent.com/itsmeares/staaash/main/design/App/Staaash%20App%20Icon%400.25.png"
-    alt="Staaash"
-    width="72"
-    align="left"
-  />
-  <h3><a href="https://github.com/itsmeares/staaash">Staaash ↗</a></h3>
-  <span>File storage, management and sharing through web interface. Self-hosted alternative to Google Drive.</span>
-  <br clear="left" />
-</div>
+<a href="https://github.com/itsmeares/staaash"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/staaash-light.png"><img src="assets/staaash.png" alt="Staaash" width="64" align="left"></picture></a>
+<b><a href="https://github.com/itsmeares/staaash">Staaash ↗</a></b><br>
+File storage, management and sharing through web interface. Self-hosted alternative to Google Drive.<br clear="left">
 
-## Technologies
+## Stack
 
-### Languages & Web
+<sub><b>Languages and web</b></sub><br>
+<img src="https://skillicons.dev/icons?i=js,ts,nodejs,react,nextjs,html,css&theme=dark" alt="Languages and web" height="40">
 
-<p>
-  <img
-    src="https://skillicons.dev/icons?i=js,ts,nodejs,react,nextjs,html,css&theme=dark"
-    alt="JavaScript, TypeScript, Node.js, React, Next.js, HTML and CSS"
-  />
-</p>
+<sub><b>Data</b></sub><br>
+<img src="https://skillicons.dev/icons?i=postgres,supabase&theme=dark" alt="Data" height="40">
 
-### Data
+<sub><b>Infrastructure</b></sub><br>
+<img src="https://skillicons.dev/icons?i=docker,cloudflare,workers,githubactions&theme=dark" alt="Infrastructure" height="40">
 
-<p>
-  <img
-    src="https://skillicons.dev/icons?i=postgres,supabase&theme=dark"
-    alt="PostgreSQL and Supabase"
-  />
-</p>
+<sub><b>Tools</b></sub><br>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,npm,pnpm,unity&theme=dark" alt="Tools" height="40">
 
-### Infrastructure
+<sub><b>Systems</b></sub><br>
+<img src="https://skillicons.dev/icons?i=windows,linux&theme=dark" alt="Systems" height="40">
 
-<p>
-  <img
-    src="https://skillicons.dev/icons?i=docker,cloudflare,workers,githubactions&theme=dark"
-    alt="Docker, Cloudflare, Cloudflare Workers and GitHub Actions"
-  />
-</p>
+## Activity
 
-### Tools
+<a href="https://www.last.fm/user/itsmeares"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/itsmeares/itsmeares/live/activity-dark.svg"><img src="https://raw.githubusercontent.com/itsmeares/itsmeares/live/activity-light.svg" alt="Current track and GitHub numbers" width="860"></picture></a>
 
-<p>
-  <img
-    src="https://skillicons.dev/icons?i=git,github,vscode,npm,pnpm,unity&theme=dark"
-    alt="Git, GitHub, Visual Studio Code, npm, pnpm and Unity"
-  />
-</p>
-
-### Operating Systems
-
-<p>
-  <img
-    src="https://skillicons.dev/icons?i=windows,linux&theme=dark"
-    alt="Window and linux"
-  />
-</p>
-
-<!-- ---
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/itsmeares/itsmeares/output/github-snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/itsmeares/itsmeares/output/github-snake.svg"
-  />
-  <img
-    src="https://raw.githubusercontent.com/itsmeares/itsmeares/output/github-snake-dark.svg"
-    alt="GitHub contribution snake"
-    width="100%"
-  />
-</picture> -->
+<a href="https://github.com/itsmeares"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/itsmeares/itsmeares/live/graph-dark.svg"><img src="https://raw.githubusercontent.com/itsmeares/itsmeares/live/graph-light.svg" alt="Contributions in the last 12 months" width="860"></picture></a>
