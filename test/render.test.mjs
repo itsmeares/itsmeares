@@ -2,10 +2,11 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { skyKind, timeOfDay } from "../scripts/weather.mjs";
 import { ago, fetchLastfm } from "../scripts/lastfm.mjs";
-import { fetchGithub } from "../scripts/github.mjs";
+import { fetchGithub, fetchProject, compact } from "../scripts/github.mjs";
 import { fitText, fitTitle } from "../scripts/util.mjs";
 import { renderBanner } from "../scripts/banner.mjs";
 import { renderActivity } from "../scripts/activity.mjs";
+import { renderProject, wrap } from "../scripts/project.mjs";
 import { renderGraph, monthLabels } from "../scripts/graph.mjs";
 
 const day = (date, n) => ({ date, contributionCount: n });
@@ -147,4 +148,40 @@ test("graph draws every day and avoids touching month labels", () => {
   assert.equal(s.match(/class="q"/g).length, 53 * 7);
   const labels = monthLabels(weeks);
   for (let i = 1; i < labels.length; i++) assert.ok(labels[i].week - labels[i - 1].week >= 3);
+});
+
+const repoFetch = (pkgHtml, release = true) => async (url) => {
+  if (url.includes("/pkgs/container/")) return { ok: pkgHtml !== null, text: async () => pkgHtml ?? "" };
+  if (url.endsWith("/releases/latest")) return { ok: release, json: async () => ({ tag_name: "v1.2.1" }) };
+  return { json: async () => ({ name: "staaash", description: "A self-hosted cloud drive.", stargazers_count: 6, forks_count: 1, license: { spdx_id: "AGPL-3.0" }, language: "TypeScript" }) };
+};
+
+test("project: stats come from the repo and the package page", async () => {
+  const p = await fetchProject("o", "staaash", "t", repoFetch('<span>Total downloads</span>\n  <h3 title="2758">2.76K</h3>'));
+  assert.deepEqual([p.stars, p.forks, p.release, p.pulls, p.license], [6, 1, "v1.2.1", "2.76K", "AGPL-3.0"]);
+});
+
+test("project: no release and no package page just leave those out", async () => {
+  const p = await fetchProject("o", "staaash", "t", repoFetch(null, false));
+  assert.equal(p.release, null);
+  assert.equal(p.pulls, null);
+  const svg = renderProject({ theme: "dark", project: p });
+  clean(svg);
+  assert.doesNotMatch(svg, /pulls/);
+});
+
+test("project card renders in both themes and wraps a long description", () => {
+  const long = "word ".repeat(60).trim();
+  assert.ok(wrap(long, 92).length === 2 && wrap(long, 92)[1].endsWith("…"));
+  for (const theme of ["dark", "light"]) {
+    const svg = renderProject({ theme, project: { name: "Staaash", description: "A & B", stars: 1234, forks: 1, license: "AGPL-3.0", language: "TypeScript", languageColor: "#3178c6", release: "v1.2.1", pulls: "2.76K" } });
+    clean(svg);
+    assert.match(svg, /1,234/);
+    assert.match(svg, /2\.76K pulls/);
+    assert.match(svg, /A &amp; B/);
+  }
+});
+
+test("counts are shortened", () => {
+  assert.deepEqual([999, 2758, 12_400, 1_500_000, 10_000].map(compact), ["999", "2.76K", "12.4K", "1.5M", "10K"]);
 });
