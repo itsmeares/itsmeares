@@ -1,4 +1,4 @@
-import { asset, dataUri, esc, fitText, svgOpen, THEMES, PURPLE } from "./util.mjs";
+import { asset, dataUri, esc, fitText, fitTitle, svgOpen, THEMES, PURPLE } from "./util.mjs";
 
 const W = 860;
 const H = 246;
@@ -41,7 +41,7 @@ export function renderActivity({ theme, track, stats }) {
   const grooves = Array.from({ length: 19 }, (_, i) => 96 - i * 3)
     .map((r, i) => `<circle cx="${CX}" cy="${CY}" r="${r}" fill="none" stroke="#fff" stroke-opacity="${i % 2 ? 0.05 : 0.02}"/>`)
     .join("");
-  const title = fitText(track.name, 190, 34, 20, 0.55);
+  const title = fitTitle(track.name, 190, 34, 20, 0.55);
   const artist = fitText(track.artist, 190, 17, 17, 0.5);
   const sub = fitText(playing ? track.album : [track.album, track.ago].filter(Boolean).join("  ·  "), 190, 13, 13, 0.5);
 
