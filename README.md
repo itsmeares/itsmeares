@@ -11,6 +11,10 @@ File storage, management and sharing through web interface. Self-hosted alternat
 <sub><b>Languages and web</b></sub><br>
 <img src="https://skillicons.dev/icons?i=js,ts,nodejs,react,nextjs,html,css&theme=dark" alt="Languages and web" height="40">
 
+<details>
+<summary>Data, infrastructure, tools and systems</summary>
+<br>
+
 <sub><b>Data</b></sub><br>
 <img src="https://skillicons.dev/icons?i=postgres,supabase&theme=dark" alt="Data" height="40">
 
@@ -22,6 +26,8 @@ File storage, management and sharing through web interface. Self-hosted alternat
 
 <sub><b>Systems</b></sub><br>
 <img src="https://skillicons.dev/icons?i=windows,linux&theme=dark" alt="Systems" height="40">
+
+</details>
 
 ## Activity
 

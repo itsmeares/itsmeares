@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { skyKind, timeOfDay } from "../scripts/weather.mjs";
 import { ago, fetchLastfm } from "../scripts/lastfm.mjs";
 import { fetchGithub } from "../scripts/github.mjs";
-import { fitText } from "../scripts/util.mjs";
+import { fitText, fitTitle } from "../scripts/util.mjs";
 import { renderBanner } from "../scripts/banner.mjs";
 import { renderActivity } from "../scripts/activity.mjs";
 import { renderGraph, monthLabels } from "../scripts/graph.mjs";
@@ -45,6 +45,14 @@ test("text is shrunk, then cut with an ellipsis", () => {
   const long = fitText("An extremely long track title that cannot possibly fit", 190, 34, 20, 0.55);
   assert.equal(long.size, 20);
   assert.ok(long.text.endsWith("…") && long.text.length < 20);
+});
+
+test("a long title loses its bracket part before it is cut", () => {
+  const t = fitTitle("Street Spirit (Fade Out)", 190, 34, 20, 0.55);
+  assert.equal(t.text, "Street Spirit");
+  assert.ok(t.size >= 20);
+  assert.equal(fitTitle("Teardrop", 190, 34, 20, 0.55).text, "Teardrop");
+  assert.ok(fitTitle("Nothing to remove but far too long to fit here", 190, 34, 20, 0.55).text.endsWith("…"));
 });
 
 test("time since a play is readable", () => {
