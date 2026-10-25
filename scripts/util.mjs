@@ -21,6 +21,14 @@ export function fitText(text, maxWidth, size, minSize, k) {
   return { text: text.slice(0, n).trimEnd() + "…", size: s };
 }
 
+// Long titles first lose a trailing "(...)" or " - ..." part, then get cut with an ellipsis.
+export function fitTitle(text, maxWidth, size, minSize, k) {
+  const full = fitText(text, maxWidth, size, minSize, k);
+  if (!full.text.endsWith("…")) return full;
+  const short = text.replace(/\s*[([].*$/, "").replace(/\s+[-–—]\s+.*$/, "").trim();
+  return short && short !== text ? fitText(short, maxWidth, size, minSize, k) : full;
+}
+
 export const THEMES = {
   dark: {
     tx: "#e6edf3", title: "#ffffff", sub: "#c9d1d9", mu: "#8b949e", faint: "#6e7681",
