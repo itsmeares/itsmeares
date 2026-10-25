@@ -2,19 +2,21 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { fetchSky } from "./weather.mjs";
 import { fetchLastfm } from "./lastfm.mjs";
-import { fetchGithub } from "./github.mjs";
+import { fetchGithub, fetchProject } from "./github.mjs";
 import { renderBanner } from "./banner.mjs";
 import { renderActivity } from "./activity.mjs";
 import { renderGraph } from "./graph.mjs";
+import { renderProject } from "./project.mjs";
 
 const out = process.argv[2] ?? "dist";
 const user = process.env.PROFILE_USER ?? "itsmeares";
 mkdirSync(out, { recursive: true });
 
-const [sky, track, gh] = await Promise.allSettled([
+const [sky, track, gh, project] = await Promise.allSettled([
   fetchSky(),
   fetchLastfm(user, process.env.LASTFM_API_KEY ?? ""),
   fetchGithub(user, process.env.GITHUB_TOKEN ?? ""),
+  fetchProject(user, "staaash", process.env.GITHUB_TOKEN ?? ""),
 ]);
 
 let written = 0;
@@ -31,6 +33,10 @@ else skip("banner", sky);
 if (gh.status === "fulfilled") {
   for (const theme of ["dark", "light"]) put(`graph-${theme}.svg`, renderGraph({ theme, weeks: gh.value.weeks }));
 } else skip("graph", gh);
+
+if (project.status === "fulfilled") {
+  for (const theme of ["dark", "light"]) put(`project-${theme}.svg`, renderProject({ theme, project: project.value }));
+} else skip("project", project);
 
 if (track.status === "fulfilled" && gh.status === "fulfilled") {
   for (const theme of ["dark", "light"])

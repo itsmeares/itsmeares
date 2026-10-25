@@ -2,18 +2,14 @@
 
 ## Projects
 
-<a href="https://github.com/itsmeares/staaash"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/staaash-light.png"><img src="assets/staaash.png" alt="Staaash" width="64" align="left"></picture></a>
-<b><a href="https://github.com/itsmeares/staaash">Staaash ↗</a></b><br>
-File storage, management and sharing through web interface. Self-hosted alternative to Google Drive.<br clear="left">
+<a href="https://github.com/itsmeares/staaash"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/itsmeares/itsmeares/live/project-dark.svg"><img src="https://raw.githubusercontent.com/itsmeares/itsmeares/live/project-light.svg" alt="Staaash, a self-hosted cloud drive" width="860"></picture></a>
 
-## Stack
+<details>
+<summary><h2>See my technologies</h2></summary>
+<br>
 
 <sub><b>Languages and web</b></sub><br>
 <img src="https://skillicons.dev/icons?i=js,ts,nodejs,react,nextjs,html,css&theme=dark" alt="Languages and web" height="40">
-
-<details>
-<summary>Data, infrastructure, tools and systems</summary>
-<br>
 
 <sub><b>Data</b></sub><br>
 <img src="https://skillicons.dev/icons?i=postgres,supabase&theme=dark" alt="Data" height="40">
