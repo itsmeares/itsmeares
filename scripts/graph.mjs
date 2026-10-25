@@ -4,6 +4,7 @@ const W = 860;
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 const CSS = `
+text{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
 @keyframes in{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:none}}
 @keyframes sh{0%,100%{opacity:1}50%{opacity:.45}}
 .q{transform-box:fill-box;transform-origin:center;animation:in .5s ease-out calc(var(--d)*28ms) both,sh 8s ease-in-out calc(3s + var(--d)*90ms) infinite}

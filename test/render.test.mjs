@@ -123,6 +123,11 @@ test("activity renders playing and idle, dark and light", () => {
   }
 });
 
+test("every text in the activity and graph files has a sans font", () => {
+  for (const svg of [renderActivity({ theme: "dark", track, stats }), renderGraph({ theme: "dark", weeks })])
+    assert.match(svg, /text\{font-family:-apple-system/);
+});
+
 test("activity escapes track text", () => {
   const s = renderActivity({ theme: "dark", track: { ...track, name: "A & B <3" }, stats });
   assert.match(s, /A &amp; B &lt;3/);

@@ -6,6 +6,7 @@ const CX = 262, CY = 118, R = 100;
 const RAMP = ["#8b5cf6", "#a78bfa", "#c4b5fd", "#6d4bc4", "#4c3a8f"];
 
 const CSS = `
+text{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
 @keyframes e0{from{transform:scaleY(.3)}to{transform:scaleY(1)}}
 @keyframes e1{from{transform:scaleY(1)}to{transform:scaleY(.35)}}
 @keyframes e2{from{transform:scaleY(.5)}to{transform:scaleY(.9)}}
