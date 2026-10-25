@@ -1,0 +1,10 @@
+{
+  "name": "itsmeares-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs dist",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" }
+}

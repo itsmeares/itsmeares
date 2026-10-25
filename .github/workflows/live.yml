@@ -1,0 +1,57 @@
+name: Live profile
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/**
+      - assets/src/**
+      - .github/workflows/live.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      REMOTE: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Restore the last published files
+        run: |
+          git clone --quiet --branch live --depth 1 "$REMOTE" dist 2>/dev/null \
+            || { mkdir dist && git -C dist init --quiet --initial-branch live; }
+
+      - name: Build
+        run: node scripts/build.mjs dist
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish
+        working-directory: dist
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --quiet --orphan publish
+          git commit --quiet -m "Update live profile files"
+          git push --quiet --force "$REMOTE" publish:live
