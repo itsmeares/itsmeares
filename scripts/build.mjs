@@ -35,7 +35,7 @@ if (gh.status === "fulfilled") {
 } else skip("graph", gh);
 
 if (project.status === "fulfilled") {
-  for (const theme of ["dark", "light"]) put(`project-${theme}.svg`, renderProject({ theme, project: project.value }));
+  for (const theme of ["dark", "light"]) put(`project-card-${theme}.svg`, renderProject({ theme, project: project.value }));
 } else skip("project", project);
 
 if (track.status === "fulfilled" && gh.status === "fulfilled") {
