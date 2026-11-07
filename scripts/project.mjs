@@ -58,7 +58,6 @@ export function renderProject({ theme, project }) {
 <title>${esc(project.name)}</title>
 <style>@font-face{font-family:OT;font-weight:700;src:url(${dataUri(asset("outfit-700-latin.woff2"), "font/woff2")}) format('woff2')}${CSS}</style>
 <image x="0" y="${iconY}" width="88" height="88" href="${dataUri(asset("staaash-icon.png"), "image/png")}"/>
-<rect x=".5" y="${iconY + 0.5}" width="87" height="87" rx="20" fill="none" stroke="${theme === "dark" ? "#fff" : "#000"}" stroke-opacity="${theme === "dark" ? 0.16 : 0.1}"/>
 <text class="ot" x="${TEXT_LEFT}" y="38" font-size="28" letter-spacing="-.6" fill="${c.title}">${esc(title)}<tspan fill="${PURPLE}" dx="8" font-size="20">↗</tspan></text>
 ${lines.map((l, i) => `<text x="${TEXT_LEFT}" y="${68 + i * 22}" font-size="15" fill="${c.sub}">${esc(l)}</text>`).join("\n")}
 ${stats}
