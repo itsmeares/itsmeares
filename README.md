@@ -2,7 +2,7 @@
 
 ## Projects
 
-<a href="https://github.com/itsmeares/staaash"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/itsmeares/itsmeares/live/project-dark.svg"><img src="https://raw.githubusercontent.com/itsmeares/itsmeares/live/project-light.svg" alt="Staaash, a self-hosted cloud drive" width="860"></picture></a>
+<a href="https://github.com/itsmeares/staaash"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/itsmeares/itsmeares/live/project-dark.svg?v=2"><img src="https://raw.githubusercontent.com/itsmeares/itsmeares/live/project-light.svg?v=2" alt="Staaash, a self-hosted cloud drive" width="860"></picture></a>
 
 <details>
 <summary><h2>See my technologies</h2></summary>
